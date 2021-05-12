@@ -9,8 +9,9 @@
 	}
 	float area(int a ,int b, int c)
 	{
-		int s;
+		int s,ar;
 		s=(a+b+c)/2;
+                ar=Math.sqrt(s*(s-a)*(s-b)*(s-c));
 		return(Math.sqrt(s));
 	}
 	float area(int a,int b)
